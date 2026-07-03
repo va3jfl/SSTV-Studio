@@ -1,0 +1,5 @@
+numpy>=1.24
+scipy>=1.10
+Pillow>=9.0
+# optional: needed only for Play and live listening
+sounddevice>=0.4
