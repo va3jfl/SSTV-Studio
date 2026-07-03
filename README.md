@@ -16,6 +16,26 @@ equivalent external time-stretcher). Treat it as an experiment between
 consenting stations, and identify your transmissions as your local
 regulations require.
 
+It's on GitHub — va3jfl/SSTV-Studio, license and all. The project has a home now, and that deserves a moment. Now, the README trick: plain Markdown image syntax can't scale, but GitHub allows HTML <img> tags with width attributes inside READMEs, and an HTML <table> gives you the grid. One wrinkle your filenames add: the spaces need to be %20-encoded in the paths. Here's a ready-to-paste block — first row shows two screenshots side by side at half width each, second row centers the third, every image clickable to open full size:
+html## Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%"><b>FM turbo 8× — clean loopback</b></td>
+    <td align="center" width="50%"><b>SSB 2.7 kHz + noise — 7×</b></td>
+  </tr>
+  <tr>
+    <td><a href="screenshots/fm%20clean%208x.png"><img src="screenshots/fm%20clean%208x.png" width="100%"></a></td>
+    <td><a href="screenshots/ssb%20noise%207x.png"><img src="screenshots/ssb%20noise%207x.png" width="100%"></a></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><b>Wideband — 8×</b></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2"><a href="screenshots/Wideband%208x.png"><img src="screenshots/Wideband%208x.png" width="50%"></a></td>
+  </tr>
+</table>
+
 ## Quick start
 
     pip install numpy scipy Pillow sounddevice
